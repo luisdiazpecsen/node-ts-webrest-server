@@ -2,3 +2,7 @@ node_modules/
 keys/
 public_old/
 .env
+
+postgres/
+
+dist/

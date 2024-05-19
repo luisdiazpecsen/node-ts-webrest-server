@@ -10,7 +10,7 @@ export class AppRoutes {
          * Middleware: Función que se ejecuta
          */
 
-        router.use('/api', TodoRoutes.routes);
+        router.use('/api/todos', TodoRoutes.routes);
 
         return router;
     }

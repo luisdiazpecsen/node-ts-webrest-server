@@ -16,7 +16,7 @@ export class TodoEntity {
         if (!id) throw 'Id is required';
         if (!text) throw 'Text is required';
 
-        let newCompletedAt;
+        let newCompletedAt = completedAt;
         if (completedAt) {
             newCompletedAt = new Date(completedAt);
             if (isNaN(newCompletedAt.getTime())) {

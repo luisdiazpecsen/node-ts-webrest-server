@@ -6,3 +6,5 @@ public_old/
 postgres/
 
 dist/
+
+coverage/
